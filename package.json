@@ -1,6 +1,6 @@
 {
   "name": "@vroskus/library-cookies",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Cookies",
   "author": "Vilius Roškus <vilius@regattas.eu>",
   "license": "MIT",
@@ -10,7 +10,9 @@
   },
   "main": "dist/index.js",
   "files": [
-    "dist/index.js"
+    "dist/browser.js",
+    "dist/index.js",
+    "dist/node.js"
   ],
   "scripts": {
     "postinstall": "npm run build",
