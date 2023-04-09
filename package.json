@@ -1,6 +1,6 @@
 {
   "name": "@vroskus/library-cookies",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Cookies",
   "author": "Vilius Roškus <vilius@regattas.eu>",
   "license": "MIT",
@@ -9,11 +9,6 @@
     "url": "git+https://github.com/vroskus/library-cookies.git"
   },
   "main": "dist/index.js",
-  "files": [
-    "dist/browser.js",
-    "dist/index.js",
-    "dist/node.js"
-  ],
   "scripts": {
     "postinstall": "npm run build",
     "build": "tsc",
