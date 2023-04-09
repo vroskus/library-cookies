@@ -1,6 +1,6 @@
 {
   "name": "@vroskus/library-cookies",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Cookies",
   "author": "Vilius Roškus <vilius@regattas.eu>",
   "license": "MIT",
@@ -23,6 +23,7 @@
     "universal-cookie-express": "4.0.3"
   },
   "devDependencies": {
+    "@types/express": "4.17.17",
     "@types/jest": "29.5.0",
     "@types/node": "18.15.11",
     "@typescript-eslint/eslint-plugin": "5.53.0",
