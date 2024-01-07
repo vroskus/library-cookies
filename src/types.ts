@@ -1,16 +1,16 @@
 // Types
 export type $Options = {
-  path?: string;
-  expires?: Date;
-  maxAge?: number;
   domain?: string;
-  secure?: boolean;
+  expires?: Date;
   httpOnly?: boolean;
+  maxAge?: number;
+  path?: string;
   sameSite?: boolean;
+  secure?: boolean;
 };
 
 export type $CookiesInstance = {
   get: (key: string) => string | void;
-  set: (key: string, value: string, options?: $Options) => void;
   remove: (key: string, options?: $Options) => void;
+  set: (key: string, value: string, options?: $Options) => void;
 };
