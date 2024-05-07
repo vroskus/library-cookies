@@ -26,7 +26,7 @@ const getInstance = (req: $Request): Cookies => {
   return cookiesInstance;
 };
 
-export const getItem = (req: $Request, key: string): string | void => {
+export const getItem = (req: $Request, key: string): string | undefined => {
   const cookiesInstance = getInstance(req);
 
   return cookiesInstance.get(key);

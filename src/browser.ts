@@ -13,7 +13,7 @@ class CookiesServiceWrap {
     this.cookiesInstance = new Cookies();
   }
 
-  getItem(key: string): string | void {
+  getItem(key: string): string | undefined {
     return this.cookiesInstance.get(key);
   }
 

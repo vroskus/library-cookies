@@ -10,7 +10,7 @@ export type $Options = {
 };
 
 export type $CookiesInstance = {
-  get: (key: string) => string | void;
+  get: (key: string) => string | undefined;
   remove: (key: string, options?: $Options) => void;
   set: (key: string, value: string, options?: $Options) => void;
 };
