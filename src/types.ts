@@ -9,7 +9,6 @@ export type $Options = {
   secure?: boolean;
 };
 
-/* eslint-disable perfectionist/sort-modules */
 export type $CookiesInstance = {
   get: (key: string) => string | undefined;
   remove: (key: string, options?: $Options) => void;
