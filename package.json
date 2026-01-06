@@ -20,18 +20,18 @@
     "test:e2e": "echo 'No tests'"
   },
   "dependencies": {
-    "@types/express": "^5.0.1",
-    "express": "^5.1.0",
+    "@types/express": "^5.0.6",
+    "express": "^5.2.1",
     "lodash": "^4.17.21",
     "universal-cookie": "^8.0.1",
     "universal-cookie-express": "^8.0.1"
   },
   "devDependencies": {
-    "@types/jest": "^29.5.14",
-    "@types/lodash": "^4.17.16",
-    "@types/node": "^22.14.0",
+    "@types/jest": "^30.0.0",
+    "@types/lodash": "^4.17.21",
+    "@types/node": "^25.0.3",
     "@types/universal-cookie": "^3.0.0",
-    "@vroskus/eslint-config": "^1.0.25",
-    "typescript": "^5.8.3"
+    "@vroskus/eslint-config": "^1.0.30",
+    "typescript": "^5.9.3"
   }
 }
